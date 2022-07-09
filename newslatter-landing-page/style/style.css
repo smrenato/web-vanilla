@@ -154,6 +154,11 @@ button:hover{
 
 #subscribe-title {
     color: var(--subscribe-title-color);
+    background: linear-gradient(to right, var(--subscribe-title-color) 20%, white);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+
 }
 #page-title {
     flex-direction: column;
